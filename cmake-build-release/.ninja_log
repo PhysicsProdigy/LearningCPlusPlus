@@ -1,0 +1,15 @@
+# ninja log v5
+2	375	6762079329339164	CMakeFiles/Learning_C_PlusPlus.dir/main.cpp.obj	514b8a603120237c
+375	432	6762079329887698	Learning_C_PlusPlus.exe	82ed12e654ba7cb2
+1	139	6762079656178714	build.ninja	cef08af04766b773
+1	286	6762079667541368	CMakeFiles/Learning_C_PlusPlus.dir/main.cpp.obj	97dc1b7895620e15
+286	710	6762079671738696	Learning_C_PlusPlus.exe	66ab9741d17ed76e
+2	362	6762083276545156	CMakeFiles/Learning_C_PlusPlus.dir/main.cpp.obj	97dc1b7895620e15
+363	605	6762083278915127	Learning_C_PlusPlus.exe	66ab9741d17ed76e
+1	461	6762084392306144	CMakeFiles/Learning_C_PlusPlus.dir/main.cpp.obj	97dc1b7895620e15
+2	316	6762084910892523	CMakeFiles/Learning_C_PlusPlus.dir/main.cpp.obj	97dc1b7895620e15
+2	287	6762086196558986	CMakeFiles/Learning_C_PlusPlus.dir/main.cpp.obj	97dc1b7895620e15
+1	335	6762086477767360	CMakeFiles/Learning_C_PlusPlus.dir/main.cpp.obj	97dc1b7895620e15
+335	581	6762086480180887	Learning_C_PlusPlus.exe	66ab9741d17ed76e
+1	304	6762089068047217	CMakeFiles/Learning_C_PlusPlus.dir/main.cpp.obj	97dc1b7895620e15
+2	247	6762089116215207	Learning_C_PlusPlus.exe	66ab9741d17ed76e

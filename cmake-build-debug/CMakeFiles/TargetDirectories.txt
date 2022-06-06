@@ -1,0 +1,3 @@
+D:/Learning to code/Learning_C_PlusPlus/cmake-build-debug/CMakeFiles/Learning_C_PlusPlus.dir
+D:/Learning to code/Learning_C_PlusPlus/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Learning to code/Learning_C_PlusPlus/cmake-build-debug/CMakeFiles/rebuild_cache.dir
