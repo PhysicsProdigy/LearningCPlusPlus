@@ -5,8 +5,6 @@
 //
 int main(){
 
-    std::cout << "Whats your name: " << std::endl;
+    std::cout << "Hello World!: " << std::endl;
 
-
-    return 0;
 }
