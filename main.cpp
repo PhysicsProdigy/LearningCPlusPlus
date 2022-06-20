@@ -35,6 +35,19 @@ int main(){
         20/06/2022 I learnt that there is std::cout std::cin for input from terminal
         std::cerr prints errors to console
         std::clog prints log messages to console.
+
+        21/06/2022 (3:45:08) I learnt that there is BRACED VARIABLE INITIALISATION?!
+        int firstnum {10}; initialises the var firstnum to 10
+        int firstnum (10); also does the same as
+        int firstnum = 10;
+
+        int firstnum {}; initialises the value to 0
+        int firstnum; initialises the value to some garbage value.
+
+        int firstnum{1.1}; causes a compile error.
+        int firstnum(1.1); causes a runtime error where it rounds the number down to the number before the decimal. Could be used to round down.
+        int firstnum = 1.1; causes a runtime error where it rounds the number down to the number before the decimal. COuld be used to round down.
+
     */
 
     std::cout << "Hello Testing World!: " << std::endl;
