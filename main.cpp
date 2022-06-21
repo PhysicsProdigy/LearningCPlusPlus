@@ -48,6 +48,17 @@ int main(){
         int firstnum(1.1); causes a runtime error where it rounds the number down to the number before the decimal. Could be used to round down.
         int firstnum = 1.1; causes a runtime error where it rounds the number down to the number before the decimal. COuld be used to round down.
 
+        signed int value{number} signed int value{-number} both are okay to use for negative and positive expressions
+        unsigned isn't good. It would only work with positive numbers.
+
+        When using Float data type, make sure the number has a 'f' at the end so it knows its a float. Otherwise it'll default to double.
+        Long double is 'L'
+
+        boolean, char.
+        char value = 65; when printed will result in the letter A. performing a static_cast<int>(value) would make it print the number 65.
+
+        Auto lets the compiler deduce the type itself.
+
     */
 
     std::cout << "Hello Testing World!: " << std::endl;
