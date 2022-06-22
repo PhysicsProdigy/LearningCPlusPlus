@@ -59,6 +59,51 @@ int main(){
 
         Auto lets the compiler deduce the type itself.
 
+        22/06/2022
+        You can increment a value by using ++ and decrement with -- prefix and suffix of these positions matter.
+        -------------------------------
+        Compounding math functions
+        += -= *= /= %=
+        ------------------------------------------------------------------------------------------------------------------
+        23/06/2022
+        Relational operators
+        num < num2
+        num <= num2 (< =)
+        num > num2
+        num >= num2 (> =)
+        num == num2 (= =)
+        num != num2 (! =)
+        -------------------------------
+        Logical Operators:
+        And ---> Only returns true if all conditions are met.
+        Or ---> Only returns true if at least 1 of the conditions are met.
+        Not ---> Returns the opposite value of variable.
+        -------------------------------
+        Output formatting:
+        #include <ios> && <iomanip>
+        \n :  new line
+        std::flush
+        std::setw() makes columns of a certain width
+        std::right is right justified
+        std::internal is internal justified which looks at the values and becomes left justified if its negative or right if positive.
+        std::setfill(-) fills up any whitespace with '-'
+        std::boolalpha forces any boolean output to the terminal to show up as either true or false instead of 0 1 std::noboolalpha does the opp
+        std::showpos shows the positive character infront of positive values. std::noshowpos does the opposite.
+        std::dec, std::oct, std::hex are all different numbering systems to use.
+        std::uppercase changes all lower case to upper case
+        std::setprecision(num)
+        https://en.cppreference.com/w/cpp/io/manip
+        -------------------------------
+        limits
+        #include <limits>
+        std::numeric_limits<numericaldatatype>::min() or std::numeric_limits<numericaldatatype>::max()
+        -------------------------------
+        maths in c++ https://en.cppreference.com/w/cpp/header/cmath
+        #include <cmath>
+        std::floor() std::ceil() std::abs() std::cos() std::exp() std::log() std::pow() std::sqrt() std::round std::sin() std::tan()
+
+
+
     */
 
     std::cout << "Hello Testing World!: " << std::endl;
