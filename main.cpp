@@ -101,9 +101,30 @@ int main(){
         maths in c++ https://en.cppreference.com/w/cpp/header/cmath
         #include <cmath>
         std::floor() std::ceil() std::abs() std::cos() std::exp() std::log() std::pow() std::sqrt() std::round std::sin() std::tan()
+        When doing math operations on weird char or ints with smaller bytes, you'll need to know that math operations will make it 4 bytes first before performing the math.
+        -------------------------------
+        Conditional programing:
+        if(){
 
+        }
+        else if(){
 
+        }
+        else{
 
+        }
+
+        switch(must be an int or enum){
+            case result:{}
+            break;
+            case result:{}
+            break;
+            default:{}
+        }
+
+        ternary operators:
+        max = (a>b)?a:b;
+        7:54:04
     */
 
     std::cout << "Hello Testing World!: " << std::endl;
