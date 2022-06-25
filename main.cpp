@@ -125,6 +125,42 @@ int main(){
         ternary operators:
         max = (a>b)?a:b;
         7:54:04
+        ------------------------------------------------------------------------------------------------------------------
+        25/06/2022 9:49:43
+        For loop / Ranged based for loop
+        for(size_t i = 0; i<10; i++ or i--){
+            something to be done.
+        }
+
+        While loop
+        while(condition){
+            something to be done.
+            i++;
+        }
+
+        Do While loop
+        do{
+            something to be done.
+        }while(condition);
+        -------------------------------
+        Arrays:
+        type name[number of elements]; // initialises array OR type name[]{values,values....} putting a constant variable infront of type makes it immutable.
+        name[index] = value // setting values.
+
+        for (int element : intarray){
+            do something with element.
+        }
+
+        std::size(array) //returns the size of the array.
+
+        for auto var : array {
+            do something with var
+        }
+
+        type array [size] {elements less then size}// will result the non filled indexes with null types.
+        type array [] {elements with no null pointer} would result in a run time error.
+
+
     */
 
     std::cout << "Hello Testing World!: " << std::endl;
