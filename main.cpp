@@ -158,7 +158,17 @@ int main(){
         }
 
         type array [size] {elements less then size}// will result the non filled indexes with null types.
-        type array [] {elements with no null pointer} would result in a run time error.
+        type array [] {elements with no null pointer} would result in a run time error. CORRECTION. This only happens when you want to print a character array with no null pointer by printing the array. 
+        ------------------------------------------------------------------------------------------------------------------
+        5/07/2022
+        C strings are arrays with a null character. This allows us to just print the array without looping through
+        Array bounds are just the same as java or python or anything.
+        -------------------------------
+        Pointers:
+        All variables have like an address or pointer.
+
+        This can be shown with * sign. Try to do it on the left.
+
 
 
     */
